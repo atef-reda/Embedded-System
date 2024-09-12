@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.22)
+project(HELLOAPP)
+set(SORSCE_FILES main.cpp src/calc.cpp)
+message(STATUS "my variables ${SORSCE_FILES}")
+message("print current path for CMakeList.txt : ${CMAKE_SOURCE_DIR}")
+if(EXISTS ${CMAKE_SOURCE_DIR}/main.c)
+    message(STATUS "file exist")
+else()
+    message(SEND_ERROR "File does not exist")
+endif()
+
+add_executable(hellobinary ${SORSCE_FILES})
+target_include_directories(hellobinary PUBLIC include/)

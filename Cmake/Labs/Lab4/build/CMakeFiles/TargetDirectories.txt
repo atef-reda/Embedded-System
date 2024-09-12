@@ -1,0 +1,6 @@
+D:/courses/embedded course/Embedded system/Cmake/Labs/Lab4/build/CMakeFiles/hellobinary.dir
+D:/courses/embedded course/Embedded system/Cmake/Labs/Lab4/build/CMakeFiles/edit_cache.dir
+D:/courses/embedded course/Embedded system/Cmake/Labs/Lab4/build/CMakeFiles/rebuild_cache.dir
+D:/courses/embedded course/Embedded system/Cmake/Labs/Lab4/build/lib/CMakeFiles/wifi_lib.dir
+D:/courses/embedded course/Embedded system/Cmake/Labs/Lab4/build/lib/CMakeFiles/edit_cache.dir
+D:/courses/embedded course/Embedded system/Cmake/Labs/Lab4/build/lib/CMakeFiles/rebuild_cache.dir
