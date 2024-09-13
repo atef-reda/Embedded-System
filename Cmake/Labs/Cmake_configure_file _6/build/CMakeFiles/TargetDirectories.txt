@@ -1,0 +1,5 @@
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_configure_file _6/build/CMakeFiles/hellobinary.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_configure_file _6/build/CMakeFiles/edit_cache.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_configure_file _6/build/CMakeFiles/rebuild_cache.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_configure_file _6/build/lib/CMakeFiles/edit_cache.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_configure_file _6/build/lib/CMakeFiles/rebuild_cache.dir
