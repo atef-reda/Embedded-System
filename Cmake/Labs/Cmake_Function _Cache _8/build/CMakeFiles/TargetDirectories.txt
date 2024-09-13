@@ -1,0 +1,6 @@
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/CMakeFiles/hellobinary.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/CMakeFiles/edit_cache.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/CMakeFiles/rebuild_cache.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/lib/CMakeFiles/wifi_lib.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/lib/CMakeFiles/edit_cache.dir
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/lib/CMakeFiles/rebuild_cache.dir
