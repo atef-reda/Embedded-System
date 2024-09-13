@@ -266,6 +266,12 @@ HELLOAPP_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 HELLOAPP_SOURCE_DIR:STATIC=D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_If_Foreach _7
 
+//TRUE
+cachvar1:BOOL=OFF
+
+//comment on this var
+cachvar2:BOOL=FALSE
+
 
 ########################
 # INTERNAL cache entries

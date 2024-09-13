@@ -16,20 +16,26 @@ target_include_directories(hellobinary PUBLIC include/ lib/)
 configure_file(defaultconfig.h.in defaultconfig.h)
 target_include_directories(hellobinary PUBLIC ${PROJECT_BINARY_DIR})
 
+#function
+function(myfirstfun arg1)
+    message("ARG1: ${arg1}") #arg name 
+    message("ARG1: ${${arg1}}") #arg value
+    message("name extra: ${ARGN}") #name extra arg
+    message("ARG1: ${${ARGN}}") #value extra arg
+    message("ARG1: ${ARGC}") #count of args
+endfunction(myfirstfun arg1)
+set(var  1 2 3 4)
+set(jan 2 4 5)
+set(jan1 2 4 5)
+#we can pass extra arg than on decleration 
+myfirstfun(var jan jan1)
 
-# foreach(F IN ITEMS A T E F R E D A)
-#     MESSAGE(STATUS "${F}")
-# endforeach()
-# SET(LST A T E F R E D A)
+#CMakeCache.txt
+# after generate code makefile throw command  cmake -G "MinGW Makefiles" .. 
+# it generate CMakeCache.txt which store your MinGW Makefiles" and build in variable
+# which you overried on
 
-# foreach(F IN LISTS LST)
-#     MESSAGE(STATUS "${F}")
-# endforeach()
-
-set(var 10)
-while(var)
-    message("var:${var}")
-    math(EXPR var "${var}-1")
-endwhile(var)
-
-
+# we can store not build in variable in cach from to methods
+# 1-
+option(cachvar1 "comment on this var" TRUE)
+set(cachvar2 FALSE CACHE BOOL "comment on this var")
