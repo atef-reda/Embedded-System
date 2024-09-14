@@ -52,10 +52,10 @@ RM = D:\applications\cmake\cmake-3.30.3-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8"
+CMAKE_SOURCE_DIR = "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build"
+CMAKE_BINARY_DIR = "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build"
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/wifi_lib.dir/depend.make
@@ -69,18 +69,18 @@ include lib/CMakeFiles/wifi_lib.dir/progress.make
 include lib/CMakeFiles/wifi_lib.dir/flags.make
 
 lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj: lib/CMakeFiles/wifi_lib.dir/flags.make
-lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj: D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function\ _Cache\ _8/lib/wifi.cpp
+lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj: D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install\ _9/lib/wifi.cpp
 lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj: lib/CMakeFiles/wifi_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj"
-	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib" && D:\applications\eclipse\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj -MF CMakeFiles\wifi_lib.dir\wifi.cpp.obj.d -o CMakeFiles\wifi_lib.dir\wifi.cpp.obj -c "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\lib\wifi.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj"
+	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib" && D:\applications\eclipse\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj -MF CMakeFiles\wifi_lib.dir\wifi.cpp.obj.d -o CMakeFiles\wifi_lib.dir\wifi.cpp.obj -c "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\lib\wifi.cpp"
 
 lib/CMakeFiles/wifi_lib.dir/wifi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wifi_lib.dir/wifi.cpp.i"
-	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib" && D:\applications\eclipse\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\lib\wifi.cpp" > CMakeFiles\wifi_lib.dir\wifi.cpp.i
+	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib" && D:\applications\eclipse\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\lib\wifi.cpp" > CMakeFiles\wifi_lib.dir\wifi.cpp.i
 
 lib/CMakeFiles/wifi_lib.dir/wifi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wifi_lib.dir/wifi.cpp.s"
-	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib" && D:\applications\eclipse\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\lib\wifi.cpp" -o CMakeFiles\wifi_lib.dir\wifi.cpp.s
+	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib" && D:\applications\eclipse\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\lib\wifi.cpp" -o CMakeFiles\wifi_lib.dir\wifi.cpp.s
 
 # Object files for target wifi_lib
 wifi_lib_OBJECTS = \
@@ -92,19 +92,19 @@ wifi_lib_EXTERNAL_OBJECTS =
 lib/libwifi_lib.a: lib/CMakeFiles/wifi_lib.dir/wifi.cpp.obj
 lib/libwifi_lib.a: lib/CMakeFiles/wifi_lib.dir/build.make
 lib/libwifi_lib.a: lib/CMakeFiles/wifi_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libwifi_lib.a"
-	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib" && $(CMAKE_COMMAND) -P CMakeFiles\wifi_lib.dir\cmake_clean_target.cmake
-	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\wifi_lib.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libwifi_lib.a"
+	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib" && $(CMAKE_COMMAND) -P CMakeFiles\wifi_lib.dir\cmake_clean_target.cmake
+	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\wifi_lib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/wifi_lib.dir/build: lib/libwifi_lib.a
 .PHONY : lib/CMakeFiles/wifi_lib.dir/build
 
 lib/CMakeFiles/wifi_lib.dir/clean:
-	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib" && $(CMAKE_COMMAND) -P CMakeFiles\wifi_lib.dir\cmake_clean.cmake
+	cd /d "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib" && $(CMAKE_COMMAND) -P CMakeFiles\wifi_lib.dir\cmake_clean.cmake
 .PHONY : lib/CMakeFiles/wifi_lib.dir/clean
 
 lib/CMakeFiles/wifi_lib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\lib" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\Cmake_Function _Cache _8\build\lib\CMakeFiles\wifi_lib.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\lib" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib" "D:\courses\embedded_course\Embedded_system\Cmake\Labs\CMake_compile_install _9\build\lib\CMakeFiles\wifi_lib.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : lib/CMakeFiles/wifi_lib.dir/depend
 

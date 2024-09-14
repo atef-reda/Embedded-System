@@ -1,0 +1,3 @@
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/executable/hellobinary.exe
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/include/wifi.hpp
+D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/include/calc.hpp

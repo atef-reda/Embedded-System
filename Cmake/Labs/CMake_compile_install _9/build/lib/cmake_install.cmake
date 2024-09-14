@@ -1,4 +1,4 @@
-# Install script for directory: D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/lib
+# Install script for directory: D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8
+# Install script for directory: D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,34 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/lib/cmake_install.cmake")
+  include("D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/lib/cmake_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/executable/hellobinary.exe")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/executable" TYPE FILE FILES "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/hellobinary.exe")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/include/wifi.hpp;D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/include/calc.hpp")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/include" TYPE FILE FILES
+    "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/lib/wifi.hpp"
+    "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/include/calc.hpp"
+    )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +84,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

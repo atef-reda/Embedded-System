@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/main.cpp" "CMakeFiles/hellobinary.dir/main.cpp.obj" "gcc" "CMakeFiles/hellobinary.dir/main.cpp.obj.d"
-  "D:/courses/embedded_course/Embedded_system/Cmake/Labs/Cmake_Function _Cache _8/src/calc.cpp" "CMakeFiles/hellobinary.dir/src/calc.cpp.obj" "gcc" "CMakeFiles/hellobinary.dir/src/calc.cpp.obj.d"
+  "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/main.cpp" "CMakeFiles/hellobinary.dir/main.cpp.obj" "gcc" "CMakeFiles/hellobinary.dir/main.cpp.obj.d"
+  "D:/courses/embedded_course/Embedded_system/Cmake/Labs/CMake_compile_install _9/src/calc.cpp" "CMakeFiles/hellobinary.dir/src/calc.cpp.obj" "gcc" "CMakeFiles/hellobinary.dir/src/calc.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
